@@ -1,3 +1,4 @@
+/* event binding */
 import { Component, OnInit } from '@angular/core';
 
 @Component({
