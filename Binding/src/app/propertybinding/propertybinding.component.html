@@ -1,0 +1,6 @@
+<h1>Property Binding works!</h1>
+<p>Interpolation:</p>
+<!--   only excepts string and numbers won't work for boolean values-->
+<input type="text" name="user-name" value={{name}} disabled={{disable}}><br><br/>
+<p>Property:</p>
+<input type="text" name="user-name" [value]=name  [disabled]=disable><br/>

@@ -4,16 +4,24 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { HomeComponent } from './home/home.component';
+import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 const routes: Routes = [
   {
     path:'databinding',
-    component: DatabindingComponent 
+    component: DatabindingComponent
   },
  {
   path:'home',
   component:HomeComponent
+ },
+ {
+  path:'propertybinding',
+  component:PropertybindingComponent
+ },{
+  path:'',
+  component:AppComponent
  }
- 
+
 ];
 
 @NgModule({

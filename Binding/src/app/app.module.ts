@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { HomeComponent } from './home/home.component';
+import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DatabindingComponent,
-    HomeComponent
+    HomeComponent,
+    PropertybindingComponent
   ],
   imports: [
     BrowserModule,
