@@ -1,0 +1,22 @@
+<h2>Databinding works!</h2>
+<table class="datatable">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <!--one-way binding -->
+            <td>{{userdata.id}}</td>
+            <td>{{userdata.first_name}}</td>
+            <td>{{userdata.last_name}}</td>
+            <td>{{userdata.email}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="padding-top:20px;"><b>{{message}}:</b><br><input type="text" [(ngModel)]="message" style="width: 300px;"></div>
