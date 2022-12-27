@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./propertybinding.component.css']
 })
 export class PropertybindingComponent{
-name='Nisha';
+name='Style Binding';
 disable=false;
+color="green";
+bgColor="yellow";
+  updatecolor(){
+    this.color="red";
+    this.bgColor="yellowgreen";
+  }
 }
