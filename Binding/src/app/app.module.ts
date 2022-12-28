@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { HomeComponent } from './home/home.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
+import { HeaderComponent } from './header/header.component';
+import { LazyloadingComponent } from './lazyloading/lazyloading.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DatabindingComponent,
     HomeComponent,
-    PropertybindingComponent
+    PropertybindingComponent,
+    HeaderComponent,
+    LazyloadingComponent
   ],
   imports: [
     BrowserModule,
@@ -23,4 +27,6 @@ import { PropertybindingComponent } from './propertybinding/propertybinding.comp
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }

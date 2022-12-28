@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { HomeComponent } from './home/home.component';
+import { LazyloadingComponent } from './lazyloading/lazyloading.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 const routes: Routes = [
   {
@@ -20,8 +21,11 @@ const routes: Routes = [
  },{
   path:'',
   component:AppComponent
+ },
+ {
+  path:'lazyloading',
+  component:LazyloadingComponent
  }
-
 ];
 
 @NgModule({

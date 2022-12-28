@@ -1,0 +1,27 @@
+nav img{
+    width: 50px;
+    padding-left: 19px;
+    margin: 2px;
+}
+nav{
+    background-color: greenyellow;
+    padding-right: 700px;
+}
+
+ul{
+    float:right;
+    list-style-type: circle;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+li a{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color:rgb(185, 239, 78);
+  }

@@ -9,9 +9,9 @@ export class PropertybindingComponent{
 name='Style Binding';
 disable=false;
 color="green";
-bgColor="yellow";
+bgColor="";
   updatecolor(){
     this.color="red";
-    this.bgColor="yellowgreen";
+    this.bgColor="blue";
   }
 }
