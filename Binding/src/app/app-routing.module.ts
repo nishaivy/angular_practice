@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { HomeComponent } from './home/home.component';
 import { LazyloadingComponent } from './lazyloading/lazyloading.component';
+import { PipesComponent } from './pipes/pipes.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 const routes: Routes = [
   {
@@ -18,14 +19,14 @@ const routes: Routes = [
  {
   path:'propertybinding',
   component:PropertybindingComponent
- },{
-  path:'',
-  component:AppComponent
  },
  {
   path:'lazyloading',
   component:LazyloadingComponent
- }
+ },
+ {path:'pipes',
+ component:PipesComponent
+}
 ];
 
 @NgModule({

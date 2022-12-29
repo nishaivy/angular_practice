@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 import { HeaderComponent } from './header/header.component';
 import { LazyloadingComponent } from './lazyloading/lazyloading.component';
+import { PipesComponent } from './pipes/pipes.component';
+import { UsdInrPipe } from './custompipes/usd-inr.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { LazyloadingComponent } from './lazyloading/lazyloading.component';
     HomeComponent,
     PropertybindingComponent,
     HeaderComponent,
-    LazyloadingComponent
+    LazyloadingComponent,
+    PipesComponent,
+    UsdInrPipe
   ],
   imports: [
     BrowserModule,

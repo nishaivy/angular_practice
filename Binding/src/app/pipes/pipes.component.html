@@ -1,0 +1,14 @@
+
+<!-- pipes -->
+<h1 style="text-align: center; background:gray">Welcome to {{title | uppercase}}</h1>
+<h1 style="text-align: center; background:gray">Welcome to {{title | lowercase}}</h1>
+<p style="text-align: center; ">Welcome to {{ today|date:'fullDate'}}</p>
+<p >Welcome to {{capString(title)}}</p>
+<p >Welcome to {{title | slice :2:8|uppercase}}</p>
+<p >Welcome to {{user|json|lowercase}}</p>
+<p >{{2000.3000 | number:'2.2-3'}}</p>
+<p>{{2.3 | number:'2.2-5'}}</p>
+<p >{{20| currency:'USD'}}</p>
+
+<!-- custompipes -->
+<p >{{20| usdInr:10}}</p>
