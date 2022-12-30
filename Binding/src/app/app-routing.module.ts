@@ -14,9 +14,10 @@ const routes: Routes = [
     component: DatabindingComponent
   },
  {
-  path:'home',
+  path:'',
   component:HomeComponent
- },
+ },{path:'home',
+ component:HomeComponent},
  {
   path:'propertybinding',
   component:PropertybindingComponent
