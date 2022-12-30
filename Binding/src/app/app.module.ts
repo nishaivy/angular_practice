@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { LazyloadingComponent } from './lazyloading/lazyloading.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { UsdInrPipe } from './custompipes/usd-inr.pipe';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UsdInrPipe } from './custompipes/usd-inr.pipe';
     HeaderComponent,
     LazyloadingComponent,
     PipesComponent,
-    UsdInrPipe
+    UsdInrPipe,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
