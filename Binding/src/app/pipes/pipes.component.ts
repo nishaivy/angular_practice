@@ -13,7 +13,9 @@ export class PipesComponent implements OnInit {
   }
   title="Angular Pipes";
   today=Date();
-  capString(item:string){return item.toUpperCase();}
+  capString(item:string){
+    return item.toUpperCase();
+  }
   user={
     name:'nisha',
     age:22

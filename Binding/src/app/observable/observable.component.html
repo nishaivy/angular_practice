@@ -1,0 +1,21 @@
+<h1>User Details</h1>
+
+  <table class="table" style="background-color: whitesmoke; width:100%; margin:10px" border="1" >
+    <thead>
+    <tr>
+    <th scope="col"> ID </th>
+    <th scope="col" >Name  </th>
+    <th scope="col">User Name  </th>
+    <th scope="col"> Email </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr  *ngFor="let apicall of userData$ |async">
+    <td class="data">{{apicall.id}}</td>
+    <td class="data">{{apicall.name}}</td>
+    <td class="data">{{apicall.username}}</td>
+    <td class="data">{{apicall.email}}</td>
+
+    </tr>
+  </tbody>
+    </table>

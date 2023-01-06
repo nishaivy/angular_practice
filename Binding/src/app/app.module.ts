@@ -12,7 +12,8 @@ import { LazyloadingComponent } from './lazyloading/lazyloading.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { UsdInrPipe } from './custompipes/usd-inr.pipe';
 import { NotfoundComponent } from './notfound/notfound.component';
-
+import { ObservableComponent } from './observable/observable.component';
+import {HttpClientModule} from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,16 +24,18 @@ import { NotfoundComponent } from './notfound/notfound.component';
     LazyloadingComponent,
     PipesComponent,
     UsdInrPipe,
-    NotfoundComponent
+    NotfoundComponent,
+    ObservableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  
+
  }

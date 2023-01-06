@@ -5,12 +5,13 @@ nav img{
 }
 nav{
     background-color: greenyellow;
-    padding-right: 650px;
+
 }
 
 ul{
     float:right;
     list-style-type: circle;
+    padding-right: 550px;
 }
 ul li{
     display: inline-block;

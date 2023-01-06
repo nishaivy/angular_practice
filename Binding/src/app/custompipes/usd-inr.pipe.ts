@@ -5,8 +5,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class UsdInrPipe implements PipeTransform {
 
-  transform(value: number, ...args: number[]): unknown {
-    
+  transform(value: number, ...args: number[]): number {
+
     const[x]=args;
     return value*x;
   }
